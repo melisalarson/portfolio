@@ -23,6 +23,14 @@ a {
   text-align: center;
 }
 
+h3 {
+  align-self: center;
+  font-size: 1.8em;
+  padding: 10px;
+  color: #e25f33;
+  font-weight: normal;
+}
+
 /* nav -------------------------------------------- */
 nav {
   background-color: #0a214c;
@@ -191,93 +199,49 @@ main {
   opacity: .9;
 }
 
-.languages-logos div {
+.languages-logos img {
+  width: 100px;
+  height: 100px;
   margin: 10px;
 }
 
 
-/* resume ------------------------------------------------ */
-
-.resume-info {
-  background-color: #0a214c;
-  
-  width: 80vw;
-  height: 85vh;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-  align-self: flex-start;
-
-  padding: 40px;
-  /* padding-left: 180px; */
-
-  font-size: 1.3em;
-
-  border-radius: 0 2em 2em 0;
-  opacity: .9;
-}
-
-iframe {
-  width: 70vw;
-  height: 75vh;
-}
-
-#content {
-  background-color: #0a214c;
-  opacity: .9;
-}
-
 /* projects ------------------------------------------------ */
 .project1, .project3, .project5 {
   background-color: #0a214c;
-  opacity: .9;
   
-  display: felx;
-  /* flex-direction: column; */
-  
-  width: 50vw;
-  height: 40vh;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: flex;
   align-self: flex-end;
   
+  width: 680px;
+  height: 260px;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
   border-radius: 2em 0 0 2em;
+  opacity: .9;
 }
 
 .project2, .project4 {
   background-color: #0a214c;
-  opacity: .9;
   
-  display: felx;
-  /* flex-direction: column; */
-
-  width: 50vw;
-  height: 40vh;
-
+  display: flex;
+  align-self: flex-start;
+  
+  width: 680px;
+  height: 260px;
+  
   margin-top: 20px;
   margin-bottom: 20px;
-  align-self: flex-start;
-
-  /* padding: 40px; */
-  /* padding-left: 180px; */
-
-  /* font-size: 1.3em; */
-
+  
   border-radius: 0 2em 2em 0;
-}
-
-h3 {
-  align-self: center;
-  font-size: 1.8em;
-  padding: 10px;
-  color: #e25f33;
-  font-weight: normal;
+  opacity: .9;
 }
 
 .projects img{
-  width: 35vh;
-  height: 35vh;
+  width: 200px;
+  height: 200px;
   padding: 20px;
   filter: grayscale(100%);
 }
@@ -294,6 +258,36 @@ h3 {
 }
 
 .project-content p {
+  text-align: center;
   padding: 10px;
   font-size: 1.2em;
+}
+
+
+/* resume ------------------------------------------------ */
+.resume-info {
+  background-color: #0a214c;
+  align-self: flex-start;
+  
+  width: 1200px;
+  height: 600px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  padding: 20px;
+
+  border-radius: 0 2em 2em 0;
+  opacity: .9;
+}
+
+iframe {
+  width: 1160px;
+  height: 560px;
+  border-radius: 0 2em 2em 0;
+}
+
+#content {
+  background-color: #0a214c;
+  opacity: .9;
 }

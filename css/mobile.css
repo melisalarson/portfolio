@@ -87,18 +87,68 @@
   height: 345px;
 
   margin-top: 20px;
-  padding: 20px;
+  padding: 10px;
   
   font-size: 1em;
 }
 
-
-
-
-
-
-
-
-
-
+.languages-logos img {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
 }
+
+
+/* projects ------------------------------------------------ */
+.project1, .project3, .project5 {
+  width: 360px;
+  height: 190px;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project2, .project4 {
+  width: 360px;
+  height: 190px;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projects img{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.project-content p {
+  text-align: center;
+  padding: 10px;
+  font-size: .8em;
+}
+
+
+/* resume ------------------------------------------------ */
+.resume-info {
+  width: 360px;
+  height: 560px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding: 10px;
+}
+
+iframe {
+  width: 300px;
+  height: 500px;
+}
+
+
+
+
+
+
+
+} /*dont lose this bracket... closing of @media*/
