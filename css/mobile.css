@@ -1,0 +1,104 @@
+@media only screen and (max-width: 414px) {
+
+/* nav -------------------------------------------- */
+.logo {
+  margin-left: 10px;
+}
+.logo a{
+  font-size: 2em;
+}
+.nav-links ul {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.nav-links li {
+  font-size: .8em;
+}
+
+/* main page body ---------------------------------- */
+.top {
+  width: 380px;
+  height: 190px;
+
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.top p {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+.headshot {
+  width: 140px;
+  height: 170px;
+}
+
+.bio {
+  width: 380px;
+  height: 360px;
+
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.bio p {
+  font-size: 1em;
+}
+
+/* contact ---------------------------------- */
+.contact-info {
+  width: 380px;
+  height: 190px;
+  
+  margin-top: 360px;
+  padding: 10px;
+}
+
+.info {
+  font-size: 1em;
+  padding: 6px;
+}
+
+
+/* languages ------------------------------------------------ */
+.languages-and-more {
+  width: 380px;
+  height: 190px;
+
+  margin-top: 20px;
+  padding: 10px;
+  
+  border-radius: 2em 0 0 2em;
+  opacity: .9;
+}
+
+.languages-and-more h3 {
+  font-size: .9em;
+}
+
+.languages-and-more p {
+  font-size: .7em;
+  padding: 10px;
+}
+
+.languages-logos {
+  width: 380px;
+  height: 400px;
+
+  margin-top: 20px;
+  padding: 20px;
+  
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+}
