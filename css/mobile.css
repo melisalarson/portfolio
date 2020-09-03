@@ -10,13 +10,17 @@ and (max-width: 414px)
   font-size: 2em;
 }
 .nav-links ul {
+  flex-direction: column;
+  align-items: flex-end;
   width: 290px;
   margin-right: 10px;
 }
 
 .nav-links li {
+  flex-direction: column;
   font-size: .8em;
 }
+
 
 /* main page body ---------------------------------- */
 .top {
@@ -38,14 +42,14 @@ and (max-width: 414px)
 
 .bio {
   width: 360px;
-  height: 355px;
+  height: 365px;
 
   margin-top: 20px;
   padding: 20px;
 }
 
 .bio p {
-  font-size: .92em;
+  font-size: .9em;
 }
 
 /* contact ---------------------------------- */
@@ -127,7 +131,7 @@ and (max-width: 414px)
 .project-content p {
   text-align: center;
   padding: 10px;
-  font-size: .75em;
+  font-size: .9em;
 }
 
 
