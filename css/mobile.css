@@ -1,5 +1,7 @@
-@media only screen and (max-width: 375px) {
-
+@media only screen 
+and (max-width: 414px) 
+/* and (max-width: 375px)  */
+{
 /* nav -------------------------------------------- */
 .logo {
   margin-left: 10px;
