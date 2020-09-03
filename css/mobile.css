@@ -38,14 +38,14 @@ and (max-width: 414px)
 
 .bio {
   width: 360px;
-  height: 345px;
+  height: 355px;
 
   margin-top: 20px;
   padding: 20px;
 }
 
 .bio p {
-  font-size: .95em;
+  font-size: .92em;
 }
 
 /* contact ---------------------------------- */
@@ -127,14 +127,14 @@ and (max-width: 414px)
 .project-content p {
   text-align: center;
   padding: 10px;
-  font-size: .8em;
+  font-size: .75em;
 }
 
 
 /* resume ------------------------------------------------ */
 .resume-info {
   width: 360px;
-  height: 560px;
+  height: 540px;
 
   margin-top: 20px;
   margin-bottom: 20px;
